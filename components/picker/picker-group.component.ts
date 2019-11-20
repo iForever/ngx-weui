@@ -46,8 +46,8 @@ export class PickerGroupComponent implements OnChanges {
 
   private defaults: any = {
     offset: 3, // 列表初始化时的偏移量（列表初始化时，选项是聚焦在中间的，通过offset强制往上挪3项，以达到初始选项是为顶部的那项）
-    rowHeight: 34, // 列表每一行的高度
-    bodyHeight: 7 * 34, // picker的高度，用于辅助点击滚动的计算
+    rowHeight: 56, // 列表每一行的高度
+    bodyHeight: 7 * 56, // picker的高度，用于辅助点击滚动的计算
     inertiaTime: 150, // 惯性滑动的保持时间，此值直接影响“灵敏度” (单位：ms)
     slideDuration: 300, // 惯性滑动的动画时间，表现为最终可视化的效果
   };
